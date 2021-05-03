@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    width: 970px;
+    background-color: #efefef;
+    margin: auto;
+    padding: 20px;
+}
+
+#top {
+    width: 80%;
+    margin: 0px auto 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+.form_field {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    display: block;
+}
+
+.form_field label {
+    margin-right: 10px;
+}
+
+select {
+    width: 149px;
+}
+
+.btn {
+    padding: 8px;
+    box-shadow: 4px 4px 2px rgb(50,50,50,.2);
+}
+
+#bottom h1 {
+    margin-bottom: 20px;
+}
+
+#bottom {
+    margin: auto;
+    width: 50%;
+}
+
+.dojo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.dojo_contents {
+    text-align: center;
+}
+
+h2, li {
+    margin-bottom: 5px;
+}
+
+ul {
+    margin-left: 30px;
+}
+
+li {
+    text-align: left;
+}
